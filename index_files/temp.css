@@ -1,0 +1,323 @@
+.bundle_item_13 {
+	background-image: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/items/bundle_item_13.png);
+}
+.ar08_shop {
+	background-image: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/items/ar08_shop.png);
+}
+.sr31_shop {
+	background-image: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/items/sr31_shop.png);
+}
+.mg12_shop {
+	background-image: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/items/mg12_shop.png);
+}
+.kn16 {
+	background-image: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/items/kn16.png);
+}
+.shg36_shop {
+	background-image: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/items/shg36_shop.png);
+}
+.ar12_shop {
+	background-image: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/items/ar12_shop.png);
+}
+/* frontpage */
+.view-frontpage h1 {
+		margin-bottom: 10px;
+}
+.view-frontpage .textpage__share {
+		display: none;
+}
+.view-frontpage .textpage ul {
+		float: right;
+		margin-bottom: 10px;
+}
+.view-frontpage .views-row {
+		border-bottom: 1px solid #333;
+		margin-bottom: 10px;
+}
+.view-frontpage .field-field-ms-files {
+		display: none;
+}
+/* /frontpage */
+
+/* one news page */
+.news__page__date {
+		position: relative;
+		margin-top: 5px;
+}
+.news__page__date .news__picture__label {
+		right: 70px;
+		top: -1px;
+}
+/* custom scroll */
+
+.simplebar, [data-simplebar-direction] {
+		overflow: hidden;
+		min-height: 400px;
+		-webkit-overflow-scrolling: touch; /* Trigger native scrolling for mobile, if not supported, plugin is used. */
+}
+@-moz-document url-prefix() {
+		.simplebar, [data-simplebar-direction] {
+				min-width: 250px;
+		}
+}
+
+.simplebar .simplebar-scroll-content,
+[data-simplebar-direction] .simplebar-scroll-content {
+		overflow-y: scroll;
+		overflow-x: auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		-ms-overflow-style: none; /* hide browser scrollbar on IE10+ */
+}
+
+/* hide browser scrollbar on Webkit (Safari & Chrome) */
+.simplebar-scroll-content::-webkit-scrollbar {
+		display: none;
+}
+
+[data-simplebar-direction="horizontal"] .simplebar-scroll-content,
+.simplebar.horizontal .simplebar-scroll-content {
+		overflow-x: scroll;
+		overflow-y: auto;
+}
+
+.simplebar-track {
+		z-index: 99;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 13px;
+		background: #d7d5d6;
+}
+
+.simplebar-track .simplebar-scrollbar {
+		position: absolute;
+		right: 0px;
+		min-height: 10px;
+		width: 13px;
+		opacity: 0;
+		-webkit-transition: opacity 0.2s linear;
+		-moz-transition: opacity 0.2s linear;
+		-o-transition: opacity 0.2s linear;
+		-ms-transition: opacity 0.2s linear;
+		transition: opacity 0.2s linear;
+		background: #a9a9a9;
+		-webkit-background-clip: padding-box;
+		-moz-background-clip: padding;
+}
+
+.simplebar-track:hover .simplebar-scrollbar {
+		/* When hovered, remove all transitions from drag handle */
+		opacity: 0.7;
+		-webkit-transition: opacity 0 linear;
+		-moz-transition: opacity 0 linear;
+		-o-transition: opacity 0 linear;
+		-ms-transition: opacity 0 linear;
+		transition: opacity 0 linear;
+}
+
+.simplebar-track .simplebar-scrollbar.visible {
+		opacity: 0.7;
+}
+
+[data-simplebar-direction="horizontal"] .simplebar-track,
+.simplebar.horizontal .simplebar-track {
+		top: auto;
+		left: 0;
+		width: auto;
+		height: 11px;
+}
+
+[data-simplebar-direction="horizontal"] .simplebar-track .simplebar-scrollbar,
+.simplebar.horizontal .simplebar-track .simplebar-scrollbar {
+		right: auto;
+		top: 2px;
+		height: 7px;
+		min-height: 0;
+		min-width: 10px;
+		width: auto;
+}
+.info-nickname
+{
+		position: absolute;
+		right: 0;
+		top: 43px;
+}
+/* rank  */
+.icon_rank_77 {background-position: 0 -2432px;}
+.icon_rank_78 {background-position: 0 -2464px;}
+
+
+/*Привязка социалки*/
+.social_name {
+		text-transform: uppercase;
+		text-align: center;
+		color: #fe5400;
+		font-size: 20px;
+		line-height: 24px;
+		font-family: plumbcondensedregular;
+}
+
+.icon-profile-vk{
+		background-image: url(../../img/main/page/icon-profile-vk.png);
+		width: 49px;
+		height: 49px;
+}
+
+
+.cart .profile__heading{
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.cart input[type="checkbox"]{
+	display: none;
+}
+
+.cart .selectric{
+	text-transform: uppercase;
+	width: 185px;
+	min-width: 100px;
+	height: 37px;
+	line-height: 37px;
+	margin: auto;
+}
+
+.cart .selectric-items{
+	margin-left: 18px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.cart .btn.disabled{
+	opacity: 0.5;
+	cursor: default;
+}
+
+	.cart .btn.disabled:hover{
+		background: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/page/btn_profile.jpg) left center repeat;
+	}
+
+.cart_left {
+	float: left;
+	width: 454px;
+}
+
+	.cart_left td {
+		height: 37px;
+	}
+
+.cart_right {
+	background: rgba(81, 81, 81, 0.2);
+	float: right;
+	width: 257px;
+	padding: 18px;
+	text-align: center;
+	margin-top: -18px;
+}
+
+	.cart_right .item_list {
+		background: rgba(12, 12, 12, 0.4);
+		height: 180px;
+		margin-bottom: 20px;
+	}
+
+	.cart_right .btn {
+		width: 183px;
+		height: 37px;
+		line-height: 37px;
+	}
+
+.cart_notif {
+	font-size: 16px;
+	line-height: 20px;
+	width: 150px;
+	margin: auto;
+	padding-top: 55px;
+}
+
+.cart_selected {
+	text-align: left;
+	text-transform: uppercase;
+	padding-left: 18px;
+	height: 36px;
+	line-height: 36px;
+	position: relative;
+	border-bottom: 1px solid #292a2a;
+}
+	.cart_selected .close{
+		background: url(/static/wf.mail.ru/img/main/content/services/remove.png) center center no-repeat;
+		border-left: 1px solid #292a2a;
+		width: 39px;
+		height: 100%;
+		display: block;
+		position: absolute;
+		right: 0px;
+		cursor: pointer;
+	}
+
+	.cart_selected_item {
+		width: 164px;
+		overflow: hidden;
+		position: relative;
+		display: block;
+		float: left;
+		white-space: nowrap;
+	}
+
+.cart_selected_item::after {
+	display: block;
+	content: '';
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkwJSIgc3RvcC1jb2xvcj0iIzFiMWIxYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(left,  rgba(125,185,232,0) 0%, rgba(27,27,27,1) 90%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(125,185,232,0)), color-stop(90%,rgba(27,27,27,1)));
+	background: -webkit-linear-gradient(left,  rgba(125,185,232,0) 0%,rgba(27,27,27,1) 90%);
+	background: -o-linear-gradient(left,  rgba(125,185,232,0) 0%,rgba(27,27,27,1) 90%);
+	background: -ms-linear-gradient(left,  rgba(125,185,232,0) 0%,rgba(27,27,27,1) 90%);
+	background: linear-gradient(to right,  rgba(125,185,232,0) 0%,rgba(27,27,27,1) 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1b1b1b',GradientType=1 );
+}
+
+.cart_items tr.fulled:hover{
+	cursor: pointer;
+	outline: 1px solid #ff4400;
+}
+
+	.cart_items.disable tr.fulled:hover{
+		cursor: default;
+		outline: none;
+	}
+	.cart_items.disable{
+		color: #404040;
+	}
+
+/*Lightbox*/
+#imageDataContainer {
+	background: transparent !important;
+	color: #aeaeae !important;
+	font-family: 'plumbregular';
+	font-size: 12px;
+	line-height: 14px;
+}
+
+/* new kabinet icons cart\userbars */
+.icon-profile-mycart {
+	background-image: url(../../img/main/page/icon-profile-mycart.png);
+	width: 60px;
+	height: 50px;
+}
+.icon-profile-userbars {
+	background-image: url(../../img/main/page/icon-profile-userbars.png);
+	width: 104px;
+	height: 34px;
+}
